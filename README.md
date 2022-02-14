@@ -43,8 +43,8 @@ I have used Laravel Breeze to implement the basic authentication system and adju
  
 ## How to use it?
 1) Clone the repo
-2) Use XAMPP to make connections to MYSQL & Apache (This will be provided in the repo) (link:http://localhost/phpmyadmin/index.php)
-3) Access phpmyadmin localhost at the web browser and create a database called favourite-movie-list
+2) Use XAMPP to make connections to MYSQL(Port 3306) & Apache(Port 80,443)
+3) Access phpmyadmin localhost at the web browser (link:http://localhost/phpmyadmin/index.php) and create a database called favourite-movie-list
 4) To make migrations to the database, open a command prompt in the repo's directory and run: php artisan:migrate
 5) In the command prompt run: "yarn" or "npm install" to install packages required for the project
 6) To start the application, open another command prompt and run : "php artisan serve"
